@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7gb71E49sczaNE6Sh8PfrHkAuWP0Z0SdSizPlM0unmU=",
+  "Source": "dotnet6-vuejs3",
+  "BasePath": "_content/dotnet6-vuejs3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

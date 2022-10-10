@@ -1,0 +1,43 @@
+// using Microsoft.AspNetCore.Mvc;
+// using dotnet6_vuejs3.Models;
+
+// namespace dotnet6_vuejs3.Controllers;
+
+// [ApiController]
+// [Route("[controller]")]
+// public class UsersController : ControllerBase {
+//     private readonly ILogger<UsersController> _logger;
+
+//     public UsersController(ILogger<UsersController> logger)
+//     {
+//         _logger = logger;
+//     }
+
+//     [HttpGet(Name = "getusers")]
+//     public IActionResult Get()
+//     {
+//         return Ok(new {message = "all users"});
+//     }
+
+//     [HttpGet("/api/getById/{id}")]
+//     public IActionResult GetById(int id)
+//     {
+//         return Ok(new {message= id.ToString()});
+//     }
+
+//     [HttpPut("/api/updatecontact/{id}")]
+//     public IActionResult UpdateUser(int id, [FromBody]UsersModel model)
+//     {
+//         return Ok();
+//     }
+
+//     [HttpDelete("/api/deleteuser/{id}")]
+//     public IActionResult DeleteUser(int id)
+//     {
+//         return Ok();
+//     }
+
+
+
+// }
+    
